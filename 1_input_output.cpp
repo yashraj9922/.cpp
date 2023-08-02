@@ -8,8 +8,8 @@ int main()
     // cin>>name;
     // cout<<"Welcome "<<name;
 
-    cout<<"\nEnter your name ";
+    cout << "\nEnter your name ";
     getline(cin, name);
-    cout<<"Hello "<<name;
+    cout << "Hello " << name;
     return 0;
 }
