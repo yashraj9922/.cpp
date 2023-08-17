@@ -14,7 +14,7 @@ int powerCount(int num)
     return count;
 }
 
-int amstrongNumBtw1to1000()
+int armstrongNumBtw1to1000()
 {
     for (int i = 1; i <= 1000; i++)
     {
@@ -56,6 +56,6 @@ int main()
     {
         cout << "Not an Armstrong Number" << endl;
     }
-    amstrongNumBtw1to1000();
+    armstrongNumBtw1to1000();
     return 0;
 }
