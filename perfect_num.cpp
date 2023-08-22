@@ -1,4 +1,4 @@
-//Program to Check Whether a Given Number is Perfect Number
+// Program to Check Whether a Given Number is Perfect Number
 #include <iostream>
 using namespace std;
 

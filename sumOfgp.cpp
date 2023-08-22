@@ -1,7 +1,7 @@
-//sum of Geometric Progression
-//Sn = a(1 - r^n) / (1 - r), when r ≠ 1.
-#include<iostream>
-#include<cmath>
+// sum of Geometric Progression
+// Sn = a(1 - r^n) / (1 - r), when r ≠ 1.
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int sumOfGP(int a, int r, int n)

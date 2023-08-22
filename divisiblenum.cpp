@@ -1,4 +1,4 @@
-//Program to Check if a Number is Divisible by Second Number
+// Program to Check if a Number is Divisible by Second Number
 #include <iostream>
 using namespace std;
 

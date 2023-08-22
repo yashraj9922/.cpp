@@ -1,4 +1,4 @@
-//program to print ASCII table (0 - 127)
+// program to print ASCII table (0 - 127)
 #include <iostream>
 using namespace std;
 

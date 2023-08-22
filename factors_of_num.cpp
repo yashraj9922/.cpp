@@ -1,4 +1,4 @@
-//program to display factors of a number
+// program to display factors of a number
 #include <iostream>
 using namespace std;
 
@@ -12,7 +12,7 @@ int main()
     {
         if (num % i == 0)
         {
-            cout << i <<endl;
+            cout << i << endl;
         }
     }
     return 0;

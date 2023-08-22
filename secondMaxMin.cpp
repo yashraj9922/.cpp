@@ -1,5 +1,5 @@
 // Program to find second maximum and second minimum element in an array
-//recheck this code
+// recheck this code
 #include <iostream>
 using namespace std;
 
