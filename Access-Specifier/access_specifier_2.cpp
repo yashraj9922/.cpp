@@ -1,30 +1,30 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 class student
 {
-  public:    // Public access specifier
-    string name;   // Public attribute
-    void print(int m)
-    {
-       print_details(m);
-    }
+public:        // Public access specifier
+  string name; // Public attribute
+  void print(int m)
+  {
+    print_details(m);
+  }
 
-  private:   // Private access specifier
-    int marks;   // Private attribute
-  private:
-    void print_details(int m)
-    {
-        marks=m;
-        cout << "The Student Name is: " << name << endl;
-        cout << "The marks obtained is: " << m << endl;
-    }
-
+private:     // Private access specifier
+  int marks; // Private attribute
+private:
+  void print_details(int m)
+  {
+    marks = m;
+    cout << "The Student Name is: " << name << endl;
+    cout << "The marks obtained is: " << m << endl;
+  }
 };
 
-int main() {
+int main()
+{
   student s;
-  s.name = "Manjunath";  // Allowed (public)
+  s.name = "Manjunath"; // Allowed (public)
   s.print(81);
+  // s.print_details(81); --> print_details has private instance hence we cannot access it outside of the student class
   return 0;
 }
-
