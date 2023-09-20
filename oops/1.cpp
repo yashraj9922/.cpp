@@ -22,10 +22,10 @@ public:
 };
 int main()
 {
-    Rectangle r1, r2; // creating objects of rectangle.....variables of type Rectangle
+    Rectangle r1; // creating objects of rectangle.....variables of type Rectangle
     r1.length = 10;
     r1.breadth = 20;
 
-    cout << r1.area();
+    cout << "Area of r1 is: " << r1.area() << endl;
     return 0;
 }
