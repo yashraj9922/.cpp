@@ -13,6 +13,6 @@ class Test
     {
         a = t.a;
         // p = t.p;// this will point to previously created array hence not creating a new array...
-        p = new int[a];// this will be pointing to new array created
+        p = new int[a]; // this will be pointing to new array created
     }
 };
