@@ -11,6 +11,7 @@ public:
         breadth = 0;
     }
 
+    //void Rectangle(int l, int b) // constructor does not have any return type
     Rectangle(int l, int b) // parameterised constructor
     {
         setLength(l);
