@@ -20,7 +20,7 @@ public:
     }
     int perimeter(); // use of scope resolution operater
 };
-int Rectangle::perimeter()
+int Rectangle::perimeter() // use of scope resolution operater
 {
     return 2 * (length + breadth);
 }
